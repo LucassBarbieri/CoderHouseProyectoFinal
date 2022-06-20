@@ -1,0 +1,41 @@
+body::-webkit-scrollbar {
+  width: 7px;
+  background-color: black;
+  border-left: 1px solid greenyellow;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: greenyellow;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 40px greenyellow;
+          box-shadow: 0px 0px 40px greenyellow;
+}
+
+.borde-img {
+  box-shadow: 0px 0px 20px greenyellow;
+}
+
+.borde-img-circular {
+  box-shadow: 0px 0px 20px greenyellow;
+  border-radius: 50%;
+}
+
+.scale {
+  transform: scale(1, 1);
+  margin: 0 auto;
+}
+
+.scale:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 1s;
+}
+
+.scale2 {
+  transform: scale(1, 1);
+  margin: 0 auto;
+}
+
+.scale2:hover {
+  transform: scale(2, 2);
+  transition: all 1s;
+}

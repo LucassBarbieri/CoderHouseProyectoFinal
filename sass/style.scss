@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;   
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.headertopnav1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image:url(../img/wall3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 20px black; 
+}
+
+@import 'media';
+@import 'effects';
+@import 'banners';
+@import 'topnav';
+@import 'leftnav';
+@import 'logo';
+@import 'sections';
+@import 'promociones';
+@import 'footer';
+@import 'modals';
+@import 'popularesimg';
+@import 'contacto';
+@import 'notificaciones';
+
+

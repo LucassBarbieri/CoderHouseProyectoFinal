@@ -1,0 +1,134 @@
+.contenedor-contacto {
+    background-color: black;
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    box-shadow: 0px 0px 20px greenyellow;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.contenedor-contacto .contacto-redes {
+    margin-left: 6px;
+}
+
+.contenedor-contacto h1 {
+    color: greenyellow;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+}
+
+.contenedor-contacto p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 10px;
+}
+
+.contacto-minicont {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 10px;
+}
+
+.contacto-text{
+    margin-top: 4px;
+}
+
+.contenedor-contacto .contacto-redes {
+    margin-left: 6px;
+}
+
+.contacto-minicont {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 10px;
+}
+
+.contacto-text{
+    margin-top: 4px;
+}
+
+form {
+    width: 96%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.form-conte {
+    width: 100%;
+    height: auto;   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.form-conte-input {
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.form-input {
+    width: 100%;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.form-boton {
+    padding: 20px;
+    width: 30%;
+    height: auto;
+    border: 1px solid greenyellow;
+    background-color: #111;
+    color: greenyellow;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.form-boton:hover {
+    box-shadow: 0px 0px 20px greenyellow;
+    background-color: greenyellow;
+    color: black;
+}
+
+.form-boton a{
+    background-color: #111;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.form-boton a:hover{
+    background-color: greenyellow;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    box-shadow: 0px 0px 20px greenyellow;
+}
+
+.formulario-caj {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}

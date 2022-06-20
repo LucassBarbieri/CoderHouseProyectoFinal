@@ -1,0 +1,106 @@
+.section-grey {
+    width: 100%;
+    background-color: #111;
+    height: auto;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.section-grey-2 {
+    width: 100%;
+    background-color: #111;
+    height: auto;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding: 20px;
+}
+
+.title-green{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: greenyellow;
+    color: black;
+    padding: 20px;
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cont-title {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.cont-contenido {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 20px;
+}
+
+.botonverde-contenedor-cont {
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    transition: all 1s;
+}
+
+.contenedor-parrafo {
+    width: 100%;
+    font-size: 30px;
+    box-shadow: 0px 0px 20px greenyellow;
+    padding: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.contenedor-img {
+    border: 1px solid greenyellow;
+    padding: 20px;
+    background-color: #111;
+    margin: 2%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.p-btn {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid greenyellow;
+    padding: 10px;
+    color: white;
+}
+
+.p-btn:hover {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid greenyellow;
+    color: black;
+    box-shadow: 0px 0px 20px greenyellow;
+    background-color: greenyellow;
+}

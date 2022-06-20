@@ -1,0 +1,40 @@
+/*********************************************************************************************/
+/* MODALS ************************************************************************************/
+/*********************************************************************************************/
+.modal-contenedor {
+    font-family: 'Bebas Neue', cursive;
+    border: 1px solid greenyellow;
+    box-shadow: 0px 0px 10px greenyellow;
+    background-color: black;
+    color: greenyellow;
+}
+
+.modal-bg {
+    background-color: black;
+}
+
+.modal-style {
+    font-family: 'Bebas Neue', cursive;
+    background-color: black;
+    color: white;
+    border: 1px solid greenyellow;
+    box-shadow: 0px 0px 10px greenyellow;
+}
+
+.btn-modal-close {
+    width: 100%;
+    height: auto;
+    border: 1px solid greenyellow;
+    background-color: black;
+    color: white;
+}
+
+.btn-modal-close:hover {
+    width: 100%;
+    height: auto;
+    border: 1px solid greenyellow;
+    box-shadow: 0px 0px 10px greenyellow;
+    background-color: greenyellow;
+    color: black;
+}
+/******************************************************************************************************************/
