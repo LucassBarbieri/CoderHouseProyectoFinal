@@ -1,4 +1,12 @@
 /* BANNERS ***********************************************************************************/
+.card-bk {
+  background-image: url(../img/card-bk.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
 .bg1 {
   background-image: url(../img/bk-fin.png);
   background-position: center;
@@ -32,7 +40,7 @@
 }
 
 .bg-bar {
-  background-image: url(../img/bg-bar.png);
+  background-image: url(../img/btn-bk.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

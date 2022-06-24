@@ -27,27 +27,9 @@ a:active {
 }
 
 .headertopnav1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-image: url(../img/wall3.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-box-shadow: 0px 0px 20px black;
-          box-shadow: 0px 0px 20px black;
+  background-image: url(./img/header.png);
+  -webkit-box-shadow: 0px 20px 20px greenyellow;
+          box-shadow: 0px 20px 20px greenyellow;
 }
 
 /* ESCRITORIO ********************************************************************************/
@@ -59,8 +41,8 @@ a:active {
     display: none;
   }
   .botonera-caj {
-    width: 30%;
-    padding: 30px;
+    width: 100%;
+    padding: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -75,38 +57,38 @@ a:active {
         align-content: center;
     border: 0px;
   }
-  .btn:hover {
-    color: white;
+  .btn-fin-aco {
+    color: black;
+  }
+  .botonera-caj .btn {
+    width: 100%;
+    height: auto;
+    border: 1px solid greenyellow;
+    padding: 10px;
+    color: greenyellow;
+    background-color: greenyellow;
+  }
+  .botonera-caj .btn:hover {
     -webkit-box-shadow: 0px 0px 20px greenyellow;
             box-shadow: 0px 0px 20px greenyellow;
-    border: 1px solid greenyellow;
-  }
-  .btn div:hover {
-    color: greenyellow;
-    border: 0px;
-  }
-  .btn-fin-aco {
-    color: white;
-  }
-  .btn {
-    color: greenyellow;
-    border: 1px solid greenyellow;
     width: 100%;
-    border: 0px;
+    border: 1px solid greenyellow;
+    padding: 10px;
+    background-color: greenyellow;
   }
   .card-fin {
     width: 100%;
     height: auto;
-    border: 1px solid greenyellow;
-    -webkit-box-shadow: 0px 0px 20px greenyellow;
-            box-shadow: 0px 0px 20px greenyellow;
+    border-left: 1px solid greenyellow;
+    border-right: 1px solid greenyellow;
+    border-bottom: 1px solid greenyellow;
     color: greenyellow;
   }
   .parrafo-3 {
     /*font-family: 'Cute Font', cursive;*/
-    padding: 26px;
+    padding: 30px;
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
@@ -128,6 +110,28 @@ a:active {
     color: greenyellow;
     background-color: #111;
     margin: 0;
+  }
+  .parrafo-4 {
+    /*font-family: 'Cute Font', cursive;*/
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: #111;
+    margin: 0;
+  }
+  .parrafo-4 a {
+    color: greenyellow;
+  }
+  .parrafo-4 a:hover {
+    text-shadow: 0px 0px 20px greenyellow;
+    color: greenyellow;
   }
   .metodo-pagos {
     display: -webkit-box;
@@ -353,11 +357,21 @@ a:active {
   .alert2 p {
     margin-bottom: 0rem;
   }
+  .headertopnav1 {
+    background-image: url(./img/header.png);
+    -webkit-box-shadow: 0px 20px 20px greenyellow;
+            box-shadow: 0px 20px 20px greenyellow;
+    height: auto;
+    width: 100%;
+  }
 }
 
 /* ANDROID ******************************************************/
 @media screen and (max-width: 550px) {
   #id-footer {
+    display: none;
+  }
+  #port-cajonx2 {
     display: none;
   }
   #footer-and {
@@ -395,15 +409,10 @@ a:active {
     color: greenyellow;
     border: 1px solid greenyellow;
   }
-  .btn div:hover {
-    color: greenyellow;
-    border: 0px;
-  }
   .btn-fin-aco {
-    color: white;
+    color: black;
   }
   .btn {
-    color: greenyellow;
     width: 100%;
     border: 1px solid greenyellow;
   }
@@ -436,9 +445,31 @@ a:active {
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
-    color: greenyellow;
+    color: #adff2f;
     background-color: #111;
     margin: 0;
+  }
+  .parrafo-4 {
+    /*font-family: 'Cute Font', cursive;*/
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: #111;
+    margin: 0;
+  }
+  .parrafo-4 a {
+    color: greenyellow;
+  }
+  .parrafo-4 a:hover {
+    text-shadow: 0px 0px 20px greenyellow;
+    color: greenyellow;
   }
   .metodo-pagos {
     display: -webkit-box;
@@ -485,7 +516,7 @@ a:active {
     color: transparent;
     -webkit-text-stroke: 2px greenyellow;
     position: absolute;
-    margin-top: -115%;
+    margin-top: -105%;
     left: 50%;
     background-color: black;
     padding: 40px;
@@ -501,7 +532,7 @@ a:active {
     background-color: black;
     padding: 40px;
     font-family: 'Bebas Neue', cursive;
-    margin-top: -115%;
+    margin-top: -105%;
     left: 50%;
     -webkit-box-shadow: 0px 0px 20px greenyellow;
             box-shadow: 0px 0px 20px greenyellow;
@@ -641,7 +672,7 @@ a:active {
     cursor: pointer;
   }
   .navegador-tit p:hover {
-    color: greenyellow;
+    color: #adff2f;
     -webkit-transition: all 1s;
     transition: all 1s;
   }
@@ -733,6 +764,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* BANNERS ***********************************************************************************/
+.card-bk {
+  background-image: url(../img/card-bk.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
 .bg1 {
   background-image: url(../img/bk-fin.png);
   background-position: center;
@@ -766,7 +805,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .bg-bar {
-  background-image: url(../img/bg-bar.png);
+  background-image: url(../img/btn-bk.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1089,7 +1128,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   background-color: #111;
   height: auto;
-  color: white;
+  color: greenyellow;
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -1116,7 +1155,7 @@ body::-webkit-scrollbar-thumb {
           justify-content: center;
   width: 100%;
   height: auto;
-  background-color: greenyellow;
+  background-color: #adff2f;
   color: black;
   padding: 20px;
   margin: 0px;
