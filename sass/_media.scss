@@ -8,6 +8,10 @@
         display: none;
     }
 
+    .contenedor-mob {
+        display: none;
+    }
+
     .botonera-caj {
         width: 100%;
         padding: 20px;
@@ -302,6 +306,25 @@
         width: 100%;
     
     }
+
+    .contenedor-central {
+        .contenedor-img{ 
+            a {
+                color: greenyellow;
+                border: 1px solid greenyellow;
+                padding: 10px;
+            }
+            a:hover{
+                color: black;
+                background-color: greenyellow;
+                box-shadow: 0px 0px 10px greenyellow;
+            }
+        }
+    }
+    
+    .btn-ver {
+        margin-top: 2%;
+    }
     
 }
 
@@ -329,6 +352,19 @@
     
     #promociones-tit {
         display: none;
+    }
+
+    .contenedor-desk {
+        display: none;
+    }
+
+    .contenedor-mob {
+        width: 100%;
+        display: block;
+    }
+
+    #offcanvasExample {
+        width: 100% ;
     }
 
     .botonera-caj {
@@ -513,6 +549,7 @@
         height: auto;
         color: white;
         font-family: 'Bebas Neue', cursive;
+        
     }
 
     .contenedor-img {
@@ -623,4 +660,25 @@
             margin-bottom: 0rem;
         }
     }
+
+    
+.contenedor-central {
+    .contenedor-img{ 
+        a {
+            color: greenyellow;
+            border: 1px solid greenyellow;
+            padding: 10px;
+        }
+        a:hover{
+            color: black;
+            background-color: greenyellow;
+            box-shadow: 0px 0px 10px greenyellow;
+        }
+    }
+}
+
+.btn-ver {
+    margin-top: 2%;
+    width: 100%;
+}
 }

@@ -104,3 +104,58 @@
     box-shadow: 0px 0px 20px greenyellow;
     background-color: greenyellow;
 }
+
+.section-fotografia {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.section-fotografia img {
+    width: 87%;
+    height: auto;
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px greenyellow;
+}
+
+.tit-nove{
+    font-size: 50px;
+    margin-left: 1%;
+    color: greenyellow;
+}
+
+.tit-mini {
+    font-size: 22px;
+    margin-left: 1%;
+}
+
+.tex-nove{
+    font-size: 21px;
+    margin-left: 1%;
+}
+
+.tex-nove2{
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+
+.hr1 {
+    width: 80%;
+    background-color: greenyellow;
+    margin-left: 10%;
+    opacity: 100%;
+}
+
+.card-port {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: space-between;
+    gap: 70px;
+}

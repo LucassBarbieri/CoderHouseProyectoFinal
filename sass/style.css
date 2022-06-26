@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: 0px;
   padding: 0px;
   margin: 0px;
@@ -28,8 +27,7 @@ a:active {
 
 .headertopnav1 {
   background-image: url(./img/header.png);
-  -webkit-box-shadow: 0px 20px 20px greenyellow;
-          box-shadow: 0px 20px 20px greenyellow;
+  box-shadow: 0px 20px 20px #adff2f;
 }
 
 /* ESCRITORIO ********************************************************************************/
@@ -37,29 +35,29 @@ a:active {
   #id-footer {
     display: block;
   }
+
   #footer-and {
     display: none;
   }
+
+  .contenedor-mob {
+    display: none;
+  }
+
   .botonera-caj {
     width: 100%;
     padding: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
     border: 0px;
   }
+
   .btn-fin-aco {
     color: black;
   }
+
   .botonera-caj .btn {
     width: 100%;
     height: auto;
@@ -68,14 +66,15 @@ a:active {
     color: greenyellow;
     background-color: greenyellow;
   }
+
   .botonera-caj .btn:hover {
-    -webkit-box-shadow: 0px 0px 20px greenyellow;
-            box-shadow: 0px 0px 20px greenyellow;
+    box-shadow: 0px 0px 20px greenyellow;
     width: 100%;
     border: 1px solid greenyellow;
     padding: 10px;
     background-color: greenyellow;
   }
+
   .card-fin {
     width: 100%;
     height: auto;
@@ -84,42 +83,36 @@ a:active {
     border-bottom: 1px solid greenyellow;
     color: greenyellow;
   }
+
   .parrafo-3 {
     /*font-family: 'Cute Font', cursive;*/
     padding: 30px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 15px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+    flex-flow: row wrap;
     width: 100%;
     height: auto;
     color: white;
     background-color: #111;
     margin: 0;
   }
+
   .parrafo-3 a {
     padding: 5px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 10px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+    flex-flow: row wrap;
     color: greenyellow;
     background-color: #111;
     margin: 0;
   }
+
   .parrafo-4 {
     /*font-family: 'Cute Font', cursive;*/
     padding: 10px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 15px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+    flex-flow: row wrap;
     width: 100%;
     height: auto;
     color: white;
@@ -133,45 +126,36 @@ a:active {
     text-shadow: 0px 0px 20px greenyellow;
     color: greenyellow;
   }
+
   .metodo-pagos {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-line-pack: center;
     align-content: center;
     border: 1px solid greenyellow;
-    -webkit-box-shadow: 0px 0px 20px greenyellow;
     box-shadow: 0px 0px 20px greenyellow;
     border-radius: 10px;
     gap: 1%;
     width: 80%;
   }
+
   .content2 {
     position: relative;
   }
+
   .content2 p {
     color: #fff;
     font-size: 8em;
     position: absolute;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     position: absolute;
     margin-top: -34%;
     left: 50%;
-    -webkit-box-shadow: 0px 0px 20px greenyellow;
-            box-shadow: 0px 0px 20px greenyellow;
+    box-shadow: 0px 0px 20px greenyellow;
     border: 1px solid greenyellow;
   }
+
   .content2 p:nth-child(1) {
     color: transparent;
     -webkit-text-stroke: 2px greenyellow;
@@ -180,27 +164,26 @@ a:active {
     left: 50%;
     background-color: black;
     padding: 40px;
-    font-family: 'Bebas Neue', cursive;
-    -webkit-box-shadow: 0px 0px 20px greenyellow;
-            box-shadow: 0px 0px 20px greenyellow;
+    font-family: "Bebas Neue", cursive;
+    box-shadow: 0px 0px 20px greenyellow;
     border: 1px solid greenyellow;
   }
+
   .content2 p:nth-child(2) {
     color: greenyellow;
     -webkit-animation: animate 4s ease-in-out infinite;
             animation: animate 4s ease-in-out infinite;
     background-color: black;
     padding: 40px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     margin-top: -34%;
     left: 50%;
-    -webkit-box-shadow: 0px 0px 20px greenyellow;
-            box-shadow: 0px 0px 20px greenyellow;
+    box-shadow: 0px 0px 20px greenyellow;
     border: 1px solid greenyellow;
   }
+
   @-webkit-keyframes animate {
-    0%,
-    100% {
+    0%, 100% {
       -webkit-clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
               clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
     }
@@ -209,9 +192,9 @@ a:active {
               clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
     }
   }
+
   @keyframes animate {
-    0%,
-    100% {
+    0%, 100% {
       -webkit-clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
               clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
     }
@@ -223,42 +206,30 @@ a:active {
   .logo {
     margin-left: 2%;
   }
+
   .contenedor-central {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
     width: 100%;
     height: auto;
     color: white;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
   }
+
   .redes {
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     color: greenyellow;
     font-size: 25px;
     background-color: greenyellow;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-shadow: 0px 0px 10px greenyellow;
-            box-shadow: 0px 0px 10px greenyellow;
+    box-shadow: 0px 0px 10px greenyellow;
     height: 16%;
     width: 100%;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
   }
   .redes p {
     margin-top: 8%;
@@ -271,73 +242,51 @@ a:active {
   .redes img {
     padding: 0px;
   }
+
   .redes2 {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
     background-color: black;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-shadow: 0px 0px 10px greenyellow;
     box-shadow: 0px 0px 10px greenyellow;
     height: 60px;
     position: absolute;
     bottom: 0;
     width: 100%;
   }
+
   .parrafo-port {
     padding: 10px;
     font-size: 15px;
     color: white;
   }
+
   .navegador-tit {
     background-color: black;
-    -webkit-box-shadow: 0px 0px 10px greenyellow;
-            box-shadow: 0px 0px 10px greenyellow;
+    box-shadow: 0px 0px 10px greenyellow;
     height: 6%;
     width: 100%;
     color: white;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 20px;
     padding: 5px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-flow: row wrap;
+    justify-content: center;
     cursor: pointer;
   }
   .navegador-tit p:hover {
     color: greenyellow;
-    -webkit-transition: all 1s;
     transition: all 1s;
   }
+
   .alert2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
     --bs-alert-bg: transparent;
     --bs-alert-padding-x: 1rem;
     --bs-alert-padding-y: 1rem;
@@ -357,107 +306,128 @@ a:active {
   .alert2 p {
     margin-bottom: 0rem;
   }
+
   .headertopnav1 {
     background-image: url(./img/header.png);
-    -webkit-box-shadow: 0px 20px 20px greenyellow;
-            box-shadow: 0px 20px 20px greenyellow;
+    box-shadow: 0px 20px 20px greenyellow;
     height: auto;
     width: 100%;
   }
-}
 
+  .contenedor-central .contenedor-img a {
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    padding: 10px;
+  }
+  .contenedor-central .contenedor-img a:hover {
+    color: black;
+    background-color: greenyellow;
+    box-shadow: 0px 0px 10px greenyellow;
+  }
+
+  .btn-ver {
+    margin-top: 2%;
+  }
+}
 /* ANDROID ******************************************************/
 @media screen and (max-width: 550px) {
   #id-footer {
     display: none;
   }
+
   #port-cajonx2 {
     display: none;
   }
+
   #footer-and {
     display: block;
   }
+
   #promociones {
     display: none;
   }
+
   #promo {
     display: none;
   }
+
   #promociones-tit {
     display: none;
   }
+
+  .contenedor-desk {
+    display: none;
+  }
+
+  .contenedor-mob {
+    width: 100%;
+    display: block;
+  }
+
+  #offcanvasExample {
+    width: 100%;
+  }
+
   .botonera-caj {
     width: 100%;
     padding: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
   }
+
   .btn:hover {
     color: greenyellow;
     border: 1px solid greenyellow;
   }
+
   .btn-fin-aco {
     color: black;
   }
+
   .btn {
     width: 100%;
     border: 1px solid greenyellow;
   }
+
   .card-fin {
     width: 100%;
     height: auto;
     border: 1px solid greenyellow;
     color: greenyellow;
   }
+
   .parrafo-3 {
     /*font-family: 'Cute Font', cursive;*/
     padding: 26px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 15px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+    flex-flow: row wrap;
     width: 100%;
     height: auto;
     color: white;
     background-color: #111;
     margin: 0;
   }
+
   .parrafo-3 a {
     padding: 5px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 8px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+    flex-flow: row wrap;
     color: #adff2f;
     background-color: #111;
     margin: 0;
   }
+
   .parrafo-4 {
     /*font-family: 'Cute Font', cursive;*/
     padding: 10px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 15px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+    flex-flow: row wrap;
     width: 100%;
     height: auto;
     color: white;
@@ -471,47 +441,38 @@ a:active {
     text-shadow: 0px 0px 20px greenyellow;
     color: greenyellow;
   }
+
   .metodo-pagos {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-line-pack: center;
     align-content: center;
     border: 1px solid greenyellow;
-    -webkit-box-shadow: 0px 0px 20px greenyellow;
     box-shadow: 0px 0px 20px greenyellow;
     border-radius: 10px;
     gap: 1%;
     width: 100%;
     margin-left: 5%;
   }
+
   .content2 {
     position: relative;
   }
+
   .content2 p {
     color: #fff;
     font-size: 60px;
     position: absolute;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     position: absolute;
     margin-top: -115%;
     left: 50%;
-    -webkit-box-shadow: 0px 0px 20px greenyellow;
-            box-shadow: 0px 0px 20px greenyellow;
+    box-shadow: 0px 0px 20px greenyellow;
     border: 1px solid greenyellow;
     background-color: greenyellow;
   }
+
   .content2 p:nth-child(1) {
     color: transparent;
     -webkit-text-stroke: 2px greenyellow;
@@ -520,27 +481,26 @@ a:active {
     left: 50%;
     background-color: black;
     padding: 40px;
-    font-family: 'Bebas Neue', cursive;
-    -webkit-box-shadow: 0px 0px 20px greenyellow;
-            box-shadow: 0px 0px 20px greenyellow;
+    font-family: "Bebas Neue", cursive;
+    box-shadow: 0px 0px 20px greenyellow;
     border: 1px solid greenyellow;
   }
+
   .content2 p:nth-child(2) {
     color: greenyellow;
     -webkit-animation: animate 4s ease-in-out infinite;
             animation: animate 4s ease-in-out infinite;
     background-color: black;
     padding: 40px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     margin-top: -105%;
     left: 50%;
-    -webkit-box-shadow: 0px 0px 20px greenyellow;
-            box-shadow: 0px 0px 20px greenyellow;
+    box-shadow: 0px 0px 20px greenyellow;
     border: 1px solid greenyellow;
   }
+
   @-webkit-keyframes animate {
-    0%,
-    100% {
+    0%, 100% {
       -webkit-clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
               clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
     }
@@ -549,9 +509,9 @@ a:active {
               clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
     }
   }
+
   @keyframes animate {
-    0%,
-    100% {
+    0%, 100% {
       -webkit-clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
               clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
     }
@@ -563,61 +523,49 @@ a:active {
   .logo {
     margin-left: 8%;
   }
+
   .contenedor-central {
     width: 100%;
     height: auto;
     color: white;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
   }
+
   .contenedor-img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     border: 1px solid greenyellow;
     padding: 20px;
     background-color: #111;
     margin: 2%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
   }
+
   .parrafo-port {
     padding: 20px;
     font-size: 20px;
     color: white;
   }
+
   .contenedor-img img {
     margin-top: 20px;
   }
+
   .redes {
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     color: greenyellow;
     font-size: 25px;
     background-color: greenyellow;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-shadow: 0px 0px 10px greenyellow;
-            box-shadow: 0px 0px 10px greenyellow;
+    box-shadow: 0px 0px 10px greenyellow;
     height: 15.7%;
     width: 100%;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
   }
   .redes p {
     margin-top: 8%;
@@ -630,68 +578,45 @@ a:active {
   .redes img {
     padding: 0px;
   }
+
   .redes2 {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
     background-color: black;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-shadow: 0px 0px 10px greenyellow;
     box-shadow: 0px 0px 10px greenyellow;
     height: 60px;
     position: absolute;
     bottom: 0;
     width: 100%;
   }
+
   .navegador-tit {
     background-color: black;
-    -webkit-box-shadow: 0px 0px 10px greenyellow;
-            box-shadow: 0px 0px 10px greenyellow;
+    box-shadow: 0px 0px 10px greenyellow;
     height: 6%;
     width: 100%;
     color: white;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 20px;
     padding: 8px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-flow: row wrap;
+    justify-content: center;
     cursor: pointer;
   }
   .navegador-tit p:hover {
     color: #adff2f;
-    -webkit-transition: all 1s;
     transition: all 1s;
   }
+
   .alert2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     --bs-alert-bg: transparent;
     --bs-alert-padding-x: 1rem;
     --bs-alert-padding-y: 1rem;
@@ -711,8 +636,23 @@ a:active {
   .alert2 p {
     margin-bottom: 0rem;
   }
-}
 
+  .contenedor-central .contenedor-img a {
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    padding: 10px;
+  }
+  .contenedor-central .contenedor-img a:hover {
+    color: black;
+    background-color: greenyellow;
+    box-shadow: 0px 0px 10px greenyellow;
+  }
+
+  .btn-ver {
+    margin-top: 2%;
+    width: 100%;
+  }
+}
 body::-webkit-scrollbar {
   width: 7px;
   background-color: black;
@@ -722,44 +662,35 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background: greenyellow;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 40px greenyellow;
   box-shadow: 0px 0px 40px greenyellow;
 }
 
 .borde-img {
-  -webkit-box-shadow: 0px 0px 20px greenyellow;
-          box-shadow: 0px 0px 20px greenyellow;
+  box-shadow: 0px 0px 20px greenyellow;
 }
 
 .borde-img-circular {
-  -webkit-box-shadow: 0px 0px 20px greenyellow;
-          box-shadow: 0px 0px 20px greenyellow;
+  box-shadow: 0px 0px 20px greenyellow;
   border-radius: 50%;
 }
 
 .scale {
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
+  transform: scale(1, 1);
   margin: 0 auto;
 }
 
 .scale:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
-  -webkit-transition: all 1s;
+  transform: scale(1.1, 1.1);
   transition: all 1s;
 }
 
 .scale2 {
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
+  transform: scale(1, 1);
   margin: 0 auto;
 }
 
 .scale2:hover {
-  -webkit-transform: scale(2, 2);
-          transform: scale(2, 2);
-  -webkit-transition: all 1s;
+  transform: scale(2, 2);
   transition: all 1s;
 }
 
@@ -918,28 +849,17 @@ body::-webkit-scrollbar-thumb {
 
 /*********************************************************************************************/
 .top-navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
   width: 100%;
   padding: 20px;
   position: fixed;
   top: 0px;
   text-align: center;
-  -webkit-transition: .5s;
-  transition: .5s;
+  transition: 0.5s;
   z-index: 999;
 }
 
@@ -952,10 +872,8 @@ body::-webkit-scrollbar-thumb {
   font-family: sans-serif;
   cursor: pointer;
   border-radius: 10px;
-  -webkit-transition: .5s;
-  transition: .5s;
-  -webkit-box-shadow: 0px 0px 20px black;
-          box-shadow: 0px 0px 20px black;
+  transition: 0.5s;
+  box-shadow: 0px 0px 20px black;
 }
 
 .top-navbar div div:hover {
@@ -970,62 +888,37 @@ body::-webkit-scrollbar-thumb {
 .offcanvas-header {
   background-color: black;
   color: white;
-  -webkit-box-shadow: 0px 0px 20px greenyellow;
-          box-shadow: 0px 0px 20px greenyellow;
+  box-shadow: 0px 0px 20px greenyellow;
 }
 
 .offcanvas {
-  -webkit-box-shadow: 0px 0px 20px greenyellow;
-          box-shadow: 0px 0px 20px greenyellow;
+  box-shadow: 0px 0px 20px greenyellow;
 }
 
 .btn-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .left-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   font-size: 20px;
   margin-top: 5%;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
-
 .left-btn a {
   font-size: 20px;
   color: white;
 }
-
 .left-btn a:hover {
   color: greenyellow;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 
@@ -1034,38 +927,25 @@ body::-webkit-scrollbar-thumb {
 }
 
 .menu-left-new {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
   width: 91%;
   gap: 4%;
   margin-top: 4%;
   height: auto;
   color: white;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 135%;
   margin-left: 17px;
   padding: 5px;
 }
-
 .menu-left-new a {
   color: white;
 }
-
 .menu-left-new a:hover {
-  -webkit-transition: all 1s;
   transition: all 1s;
   color: greenyellow;
 }
@@ -1078,11 +958,10 @@ body::-webkit-scrollbar-thumb {
 }
 */
 .finbtn {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 30px;
   color: black;
   padding: 15px;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 
@@ -1093,28 +972,20 @@ body::-webkit-scrollbar-thumb {
 }
 
 .logo2 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 30px;
   padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   margin-left: 30px;
 }
 
 .finbtn2 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 30px;
   color: black;
   padding: 15px;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 
@@ -1129,7 +1000,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #111;
   height: auto;
   color: greenyellow;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .section-grey-2 {
@@ -1137,77 +1008,46 @@ body::-webkit-scrollbar-thumb {
   background-color: #111;
   height: auto;
   color: white;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   padding: 20px;
 }
 
 .title-green {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
   width: 100%;
   height: auto;
   background-color: #adff2f;
   color: black;
   padding: 20px;
   margin: 0px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .cont-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
   padding: 20px;
   width: 100%;
 }
 
 .cont-contenido {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
   width: 100%;
   height: auto;
   color: white;
@@ -1215,19 +1055,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 .botonverde-contenedor-cont {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   width: 100%;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 
 .contenedor-parrafo {
   width: 100%;
   font-size: 30px;
-  -webkit-box-shadow: 0px 0px 20px greenyellow;
-          box-shadow: 0px 0px 20px greenyellow;
+  box-shadow: 0px 0px 20px greenyellow;
   padding: 30px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .contenedor-img {
@@ -1235,25 +1073,15 @@ body::-webkit-scrollbar-thumb {
   padding: 20px;
   background-color: #111;
   margin: 2%;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .p-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
   width: 100%;
   border: 1px solid greenyellow;
   padding: 10px;
@@ -1261,45 +1089,78 @@ body::-webkit-scrollbar-thumb {
 }
 
 .p-btn:hover {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
   width: 100%;
   border: 1px solid greenyellow;
   color: black;
-  -webkit-box-shadow: 0px 0px 20px greenyellow;
-          box-shadow: 0px 0px 20px greenyellow;
+  box-shadow: 0px 0px 20px greenyellow;
   background-color: greenyellow;
 }
 
-.section-promo {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.section-fotografia {
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.section-fotografia img {
+  width: 87%;
+  height: auto;
+  border: 1px solid greenyellow;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px greenyellow;
+}
+
+.tit-nove {
+  font-size: 50px;
+  margin-left: 1%;
+  color: greenyellow;
+}
+
+.tit-mini {
+  font-size: 22px;
+  margin-left: 1%;
+}
+
+.tex-nove {
+  font-size: 21px;
+  margin-left: 1%;
+}
+
+.tex-nove2 {
+  font-size: 20px;
+  margin-left: 1%;
+}
+
+.hr1 {
+  width: 80%;
+  background-color: greenyellow;
+  margin-left: 10%;
+  opacity: 100%;
+}
+
+.card-port {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.section-promo {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
   padding: 10px;
   color: white;
   width: 130%;
@@ -1307,25 +1168,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .conteiner-promociones {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
   border: 1px solid greenyellow;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 20px greenyellow;
-          box-shadow: 0px 0px 20px greenyellow;
+  box-shadow: 0px 0px 20px greenyellow;
   width: 43%;
   padding: 20px;
 }
@@ -1333,47 +1183,29 @@ body::-webkit-scrollbar-thumb {
 .parrafo-promo {
   padding: 12px;
   font-size: 20px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  flex-flow: row wrap;
   color: white;
 }
 
 .section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  flex-flow: row wrap;
   padding: 10px;
   width: 100%;
 }
 
 .section-off {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
 }
 
 /* FOOTER DESKTOP ****************************************************************************/
 /*********************************************************************************************/
 .title-footer {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 30px;
   text-align: left;
   padding: 12px;
@@ -1382,30 +1214,16 @@ body::-webkit-scrollbar-thumb {
 .footer-img {
   gap: 10px;
   width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
   justify-content: flex-end;
 }
 
 .footer-cont {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: column wrap;
   flex-flow: column wrap;
   width: 2000px;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: flex-start;
-  -ms-flex-line-pack: start;
   align-content: flex-start;
   padding: 10px 10px;
   margin-top: -2%;
@@ -1417,26 +1235,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer-logo {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   background-color: black;
   font-size: 50px;
   text-align: center;
   width: 50%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -ms-flex-line-pack: center;
   align-content: center;
   padding: 20px;
   color: greenyellow;
@@ -1449,28 +1257,18 @@ body::-webkit-scrollbar-thumb {
 .parrafo-2 {
   /*font-family: 'Cute Font', cursive;*/
   padding: 12px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 18px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
-  -webkit-box-flex: 4;
-  -ms-flex: 4;
   flex: 4;
   color: black;
 }
 
 .parrafo-promo {
   padding: 12px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
-  -webkit-box-flex: 4;
-  -ms-flex: 4;
   flex: 4;
   color: white;
 }
@@ -1483,37 +1281,20 @@ body::-webkit-scrollbar-thumb {
   color: black;
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 20px 20px;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   /* HORIZONTAL */
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -ms-flex-line-pack: center;
   align-content: center;
 }
 
 .footer-cont {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: column wrap;
   flex-flow: column wrap;
   width: 100%;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: flex-start;
-  -ms-flex-line-pack: start;
   align-content: flex-start;
   padding: 10px 10px;
   margin-top: -2%;
@@ -1523,10 +1304,9 @@ body::-webkit-scrollbar-thumb {
 /* MODALS ************************************************************************************/
 /*********************************************************************************************/
 .modal-contenedor {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   border: 1px solid greenyellow;
-  -webkit-box-shadow: 0px 0px 10px greenyellow;
-          box-shadow: 0px 0px 10px greenyellow;
+  box-shadow: 0px 0px 10px greenyellow;
   background-color: black;
   color: greenyellow;
 }
@@ -1536,12 +1316,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .modal-style {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   background-color: black;
   color: white;
   border: 1px solid greenyellow;
-  -webkit-box-shadow: 0px 0px 10px greenyellow;
-          box-shadow: 0px 0px 10px greenyellow;
+  box-shadow: 0px 0px 10px greenyellow;
 }
 
 .btn-modal-close {
@@ -1556,62 +1335,39 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: auto;
   border: 1px solid greenyellow;
-  -webkit-box-shadow: 0px 0px 10px greenyellow;
-          box-shadow: 0px 0px 10px greenyellow;
+  box-shadow: 0px 0px 10px greenyellow;
   background-color: greenyellow;
   color: black;
 }
 
 /******************************************************************************************************************/
 .populares {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: black;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  flex-flow: row wrap;
   gap: 30px;
   color: white;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
   padding: 50px;
 }
 
 .populares img {
   border: 1px solid greenyellow;
-  -webkit-box-shadow: 0px 0px 10px greenyellow;
-          box-shadow: 0px 0px 10px greenyellow;
+  box-shadow: 0px 0px 10px greenyellow;
 }
 
 .contenedor-contacto {
-  background-color: black;
+  background-color: #111;
   color: greenyellow;
-  border: 1px solid greenyellow;
-  -webkit-box-shadow: 0px 0px 20px greenyellow;
-          box-shadow: 0px 0px 20px greenyellow;
+  box-shadow: 0px 0px 20px greenyellow;
   padding: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 
 .contenedor-contacto .contacto-redes {
@@ -1621,26 +1377,21 @@ body::-webkit-scrollbar-thumb {
 .contenedor-contacto h1 {
   color: greenyellow;
   font-size: 20px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   padding: 10px;
 }
 
 .contenedor-contacto p {
   color: white;
   font-size: 15px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   margin-left: 10px;
 }
 
 .contacto-minicont {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  flex-flow: row wrap;
   margin-left: 10px;
 }
 
@@ -1654,13 +1405,8 @@ body::-webkit-scrollbar-thumb {
 
 .contacto-minicont {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  flex-flow: row wrap;
   margin-left: 10px;
 }
 
@@ -1679,34 +1425,24 @@ textarea {
 .form-conte {
   width: 100%;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   gap: 1%;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .form-conte-input {
   width: 100%;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .form-input {
   width: 100%;
   color: black;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .form-boton {
@@ -1716,27 +1452,16 @@ textarea {
   border: 1px solid greenyellow;
   background-color: #111;
   color: greenyellow;
-  font-family: 'Bebas Neue', cursive;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  font-family: "Bebas Neue", cursive;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .form-boton:hover {
-  -webkit-box-shadow: 0px 0px 20px greenyellow;
-          box-shadow: 0px 0px 20px greenyellow;
+  box-shadow: 0px 0px 20px greenyellow;
   background-color: greenyellow;
   color: black;
 }
@@ -1744,33 +1469,22 @@ textarea {
 .form-boton a {
   background-color: #111;
   color: white;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .form-boton a:hover {
   background-color: greenyellow;
   color: black;
-  font-family: 'Bebas Neue', cursive;
-  -webkit-box-shadow: 0px 0px 20px greenyellow;
-          box-shadow: 0px 0px 20px greenyellow;
+  font-family: "Bebas Neue", cursive;
+  box-shadow: 0px 0px 20px greenyellow;
 }
 
 .formulario-caj {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   width: 100%;
 }
 
@@ -1781,7 +1495,7 @@ input {
 .cont-noti {
   background-color: red;
   color: white;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .cont-noti div button {
@@ -1791,31 +1505,19 @@ input {
 .formulario {
   width: 100%;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   background-color: #111;
   padding: 30px;
 }
-
 .formulario label {
   width: 100%;
   padding: 10px;
   font-size: 15px;
 }
-
 .formulario input {
   width: 50%;
   padding: 10px;
@@ -1825,13 +1527,10 @@ input {
   border: 1px solid greenyellow;
   color: white;
 }
-
 .formulario input:hover {
-  -webkit-box-shadow: 0px 0px 20px greenyellow;
-          box-shadow: 0px 0px 20px greenyellow;
+  box-shadow: 0px 0px 20px greenyellow;
   color: greenyellow;
 }
-
 .formulario textarea {
   width: 100%;
   padding: 10px;
@@ -1841,10 +1540,8 @@ input {
   border: 1px solid greenyellow;
   color: white;
 }
-
 .formulario textarea:hover {
-  -webkit-box-shadow: 0px 0px 20px greenyellow;
-          box-shadow: 0px 0px 20px greenyellow;
+  box-shadow: 0px 0px 20px greenyellow;
   color: greenyellow;
 }
 
@@ -1856,25 +1553,13 @@ input {
 .form-btn {
   gap: 5%;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
-
 .form-btn input {
   width: 30%;
   height: auto;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
