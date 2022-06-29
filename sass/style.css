@@ -1138,6 +1138,7 @@ body::-webkit-scrollbar-thumb {
 .tex-nove2 {
   font-size: 20px;
   margin-left: 1%;
+  color: white;
 }
 
 .tex-nove3 {
@@ -1369,6 +1370,20 @@ body::-webkit-scrollbar-thumb {
   align-content: flex-start;
   padding: 10px 10px;
   margin-top: -2%;
+}
+
+ul {
+  padding: 1px;
+  list-style: none;
+}
+
+.parrafo-5 {
+  /*font-family: 'Cute Font', cursive;*/
+  margin: 3px;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  flex-flow: row wrap;
+  color: black;
 }
 
 /*********************************************************************************************/
