@@ -1132,11 +1132,19 @@ body::-webkit-scrollbar-thumb {
 .tex-nove {
   font-size: 21px;
   margin-left: 1%;
+  width: 100%;
 }
 
 .tex-nove2 {
   font-size: 20px;
   margin-left: 1%;
+}
+
+.tex-nove3 {
+  font-size: 21px;
+  margin-left: 1%;
+  width: 100%;
+  color: greenyellow;
 }
 
 .hr1 {
@@ -1152,7 +1160,70 @@ body::-webkit-scrollbar-thumb {
   align-items: flex-start;
   align-content: center;
   justify-content: space-between;
-  gap: 70px;
+  width: 100%;
+}
+
+.cont-btn-contratar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 20px 0px 0px 0px;
+}
+
+.btn-contratar {
+  font-size: 30px;
+  border: 1px solid greenyellow;
+  color: black;
+  background-color: greenyellow;
+  padding: 10px;
+}
+.btn-contratar a:hover {
+  color: black;
+}
+
+.btn-contratar:hover {
+  box-shadow: 0px 0px 20px greenyellow;
+}
+
+.form-pw-pres {
+  padding: 10px;
+  border: 1px solid greenyellow;
+  height: auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 5px;
+  color: white;
+}
+.form-pw-pres input {
+  padding: 10px;
+  border: 1px solid greenyellow;
+  color: black;
+  border-radius: 5px;
+  background-color: #111;
+  color: white;
+}
+.form-pw-pres textarea {
+  padding: 10px;
+  background-color: #111;
+  color: white;
+}
+.form-pw-pres .tex-presu {
+  color: greenyellow;
+  padding: 2px;
+  margin-top: 2%;
+  font-size: 20px;
+}
+.form-pw-pres .form-btn input {
+  background-color: greenyellow;
+  color: black;
+}
+.form-pw-pres .form-btn input:hover {
+  box-shadow: 0px 0px 20px greenyellow;
 }
 
 .section-promo {
@@ -1307,17 +1378,17 @@ body::-webkit-scrollbar-thumb {
   font-family: "Bebas Neue", cursive;
   border: 1px solid greenyellow;
   box-shadow: 0px 0px 10px greenyellow;
-  background-color: black;
-  color: greenyellow;
+  background-color: greenyellow;
+  color: black;
 }
 
 .modal-bg {
-  background-color: black;
+  background-color: #111;
 }
 
 .modal-style {
   font-family: "Bebas Neue", cursive;
-  background-color: black;
+  background-color: #111;
   color: white;
   border: 1px solid greenyellow;
   box-shadow: 0px 0px 10px greenyellow;
@@ -1327,7 +1398,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: auto;
   border: 1px solid greenyellow;
-  background-color: black;
+  background-color: #111;
   color: white;
 }
 
@@ -1562,4 +1633,8 @@ input {
 .form-btn input {
   width: 30%;
   height: auto;
+}
+
+form {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

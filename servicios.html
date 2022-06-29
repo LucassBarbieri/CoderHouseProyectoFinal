@@ -120,11 +120,27 @@
     </div>
     <!--------------------------------------------------------------------------------------------------------->
     <!-- PRINCIPAL -->
-    <section class="section-grey bg2">
+    <section class="section-grey">
         <div class="container">   
-          <div class="contenedor-img scale">
-            <p class="parrafo-4">Actualmente este sector del sitio se encuentra en contruccion, te pedimos disculpas por los inconvenientes, estamos trabajando para traerte lo antes posible este sector en linea, vuelve pronto para saber mas.</p>
-          </div>         
+          <div class="contenedor-central">
+            <div class="contenedor-img">
+              <p class="tit-nove">Crea tu sitio web</p>
+              <p class="tex-nove">Maquetaremos, diseñaremos y desarrollaremos un sitio exclusivo, basandonos en tus ideas y hacia donde quieras apuntar con tu proyecto digital agregando toda nuestra experiencia.</p>             
+            </div>
+            <div class="cont-btn-contratar">
+              <p class="btn-contratar"><a href="#" data-bs-toggle="modal" data-bs-target="#presupuesto-paginaweb">Presupuestar</a></p>
+            </div>
+          </div>      
+          <hr class="hr1">  
+          <div class="contenedor-central">
+            <div class="cont-btn-contratar">
+              <p class="btn-contratar"><a href="#" data-bs-toggle="modal" data-bs-target="#presupuesto-fotografia">Presupuestar</a></p>
+            </div>
+            <div class="contenedor-img">
+              <p class="tit-nove">Fotografia y diseño</p>
+              <p class="tex-nove">Nuestro grupo de profesionales te asistira en tus proyectos fotograficos para tu sitio web o marketing digital, diseñaremos el logo para tu empresa y mostraremos el mejor perfil de tus productos.</p>             
+            </div>
+          </div>  
       </div>
     </section>
     <!--------------------------------------------------------------------------------------------------------->
@@ -213,6 +229,89 @@
             </div>
             <div class="modal-body modal-style">
               <p>Actualmente el panel de control para SOPORTE se encuentra en contruccion</p>
+            </div>
+            <div class="modal-contenedor">
+              <div class="modal-footer banner8">
+                <button type="button" class="btn-modal-close" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="presupuesto-paginaweb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header modal-contenedor banner8">
+              <p class="modal-title" id="exampleModalLabel">Presupuesto</p>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body modal-style">
+              <div class="contenedor-img">
+                <p class="tit-nove">Pagina web</p>
+                <p class="tex-nove">Arma tu paquete ideal, para que tu proyecto se haga realidad, completa el siguiente formulario y uno de nuestros representantes se comunicara contigo dentro de las porximas 24hs para poner en marcha ese proyecto que tanto queres!</p>
+              </div>
+              <form action="./presu-paginas.php" method="POST">
+                <div class="contenedor-img form-pw-pres">
+                    <p class="tex-presu">Datos personales:</p>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido">    
+                    <input type="text" id="email" name="email" placeholder="Correo electronico">         
+                    <input type="text" id="contacto" name="contacto" placeholder="N° de contacto">       
+                </div>
+                <div class="contenedor-img form-pw-pres">
+                  <p class="tex-presu">Crear usuario:</p>
+                  <input type="text" id="usuario" name="usuario" placeholder="Usuario">    
+                  <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña">           
+                </div>
+                <div class="contenedor-img form-pw-pres">
+                  <textarea type="text" name="textarea" id="textarea" cols="30" rows="10" placeholder="Cuentas en tus propias palabras, que ideas tienes para tu sitio web..."></textarea>
+                </div>
+                <div class="contenedor-img form-pw-pres">
+                  <div class="form-btn">
+                    <input type="submit" value="Enviar Ahora">
+                    <input type="reset" value="Borrar todo">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-contenedor">
+              <div class="modal-footer banner8">
+                <button type="button" class="btn-modal-close" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="presupuesto-fotografia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header modal-contenedor banner8">
+              <p class="modal-title" id="exampleModalLabel">Presupuesto</p>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body modal-style">
+              <div class="contenedor-img">
+                <p class="tit-nove">Fotografia y diseño</p>
+                <p class="tex-nove">Arma tu paquete ideal, para que tu proyecto se haga realidad, completa el siguiente formulario y uno de nuestros representantes se comunicara contigo dentro de las porximas 24hs para poner en marcha ese proyecto que tanto queres!</p>
+              </div>
+              <form action="./presu-imagen.php" method="POST">
+                <div class="contenedor-img form-pw-pres">
+                    <p class="tex-presu">Datos personales:</p>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido">    
+                    <input type="text" id="email" name="email" placeholder="Correo electronico">         
+                    <input type="text" id="contacto" name="contacto" placeholder="N° de contacto">       
+                </div>
+                <div class="contenedor-img form-pw-pres">
+                  <textarea type="text" name="textarea" id="textarea" cols="30" rows="10" placeholder="Cuentas en tus propias palabras, que ideas tienes para tu proyecto visual..."></textarea>
+                </div>
+                <div class="contenedor-img form-pw-pres">
+                  <div class="form-btn">
+                    <input type="submit" value="Enviar Ahora">
+                    <input type="reset" value="Borrar todo">
+                  </div>
+                </div>
+              </form>
             </div>
             <div class="modal-contenedor">
               <div class="modal-footer banner8">
